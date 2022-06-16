@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class ="altText">Calculator</h1>
+        <div class="darkLight">🌗<br><label class="switch">
+            <input type="checkbox" id="change" onchange="darkMode()">
+            <span class="slider"></span>
+        </label></div>
+    </header>
+
+    <main>
+        <div class="display"><div class="rows"><span class ="altText" id="info"></span><span class ="altText" id="display"></span></div></div>
+        <div class="clearDiv">
+                <button class="clear" id="Clear">C</button>
+                <button class="clear" id="ClearAll">AC</button>
+        </div>
+        <div class="buttons">
+            <div class="digits">
+                <button class="dbutton" id="1">1</button>
+                <button class="dbutton" id="2">2</button>
+                <button class="dbutton" id="3">3</button>
+                <button class="dbutton" id="4">4</button>
+                <button class="dbutton" id="5">5</button>
+                <button class="dbutton" id="6">6</button>
+                <button class="dbutton" id="7">7</button>
+                <button class="dbutton" id="8">8</button>
+                <button class="dbutton" id="9">9</button>
+                <button class="dbutton" id="0">0</button>
+                <button class="dbutton" id="decimal">.</button>
+                <button class="ebutton" id="equals">=</button>
+            </div>
+
+            <div class="functions">
+                <button class="fbutton" id="divide">÷</button>
+                <button class="fbutton" id="multiply">×</button>
+                <button class="fbutton" id="subtract">−</button>
+                <button class="fbutton" id="add">+</button>
+                
+                
+            </div>
+        </div>
+        
+        
+
+    </main>
+</body>
+<script src="scripts.js"></script>
+</html>
